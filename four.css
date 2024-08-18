@@ -97,6 +97,6 @@ ul{margin-top: 20px;translate: 0px 0px;gap: 0px;justify-content: space-evenly;}
 h2{margin-left: 100px;}
 p{margin-left: 140px;}
 .talk{width:350px ;display: flex;flex-flow: column;justify-content: center;align-items: center;}
-.container{height: 70vh;width: 100%;padding-bottom: 120px;padding-left: 50px;padding-right: -100px;}
+.container{height: 70vh;width: 100%;padding-bottom: 120px;padding-left: 50px;padding-right: -100px;margin-bottom: 30px;margin-top: -15px;}
 
 }

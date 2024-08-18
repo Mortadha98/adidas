@@ -91,7 +91,7 @@ ul{display: flex;gap: 40px;padding-right: 150px;padding-left: 50px;margin-top: 5
 p{font-size: 8px;letter-spacing: 2px;line-height: 23px;font-weight: lighter;}
 .logo{display: block;width: 500px ;height: fit-content;translate: 50px 0px;padding-top: 10px;}
 .content{ display: flex;justify-content: flex-start;align-items: flex-start;flex-flow: row wrap;height: 100%;width:300px;padding-top: 20px;align-self: flex-start;}
-ul{display: flex;gap: 70px;margin-top: 5px;width: 100%;margin: auto auto;margin-top: 20px;translate: -20px 0px;gap: 25px;justify-content: space-evenly }
+ul{display: flex;gap: 70px;margin-top: 5px;width: 100%;margin-top: 20px;translate: -10px 0px;gap: 25px;justify-content: center }
 
 
 

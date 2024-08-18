@@ -55,7 +55,7 @@ img{width: 450px ;}
 h2{font-size: 40px;letter-spacing: 3px;font-weight: 700;}
 p{font-size: 12px;letter-spacing: 2px;line-height: 23px;font-weight: lighter;}
 
-@media (min-width:700px) and (max-width:1178px) {
+@media (min-width:700px) and (max-width:1165px) {
 
     .image{width: 350px;overflow: hidden;display: flex;flex-flow: column wrap;padding-right: 10px;}
     img{width: 350px ;}
@@ -84,19 +84,30 @@ ul{display: flex;gap: 40px;padding-right: 150px;padding-left: 50px;margin-top: 5
 }
 @media (min-width:0px) and (max-width:513px){
     *{font-size: 12px;}
-    .image{width: 250px;overflow: hidden;display: flex;flex-flow: column wrap;padding-left: 155px;}
-    img{width: 250px ;}
-    .content{ display: flex;justify-content: center;align-items: center;flex-flow: column nowrap;height: 100%;width: 200px;padding-left: 10px;}
+    .image{width: 220px;overflow: hidden;display: flex;flex-flow: row nowrap;translate: -10px 35px;}
+    img{width: 100%;}
+    
     h2{font-size: 20px;letter-spacing: 0px;font-weight: 700;}
 p{font-size: 8px;letter-spacing: 2px;line-height: 23px;font-weight: lighter;}
-.logo{display: block;width: 500px;padding-left: 100px ;height: fit-content;translate: 10px 0px;padding-top: 10px;}
-.content{ display: flex;justify-content: center;align-items: center;flex-flow: column nowrap;height: 100%;width: 100%;}
-ul{display: flex;gap: 40px;padding-right: px;padding-left: 50px;margin-top: 5px;width: 400px;margin: auto auto;}
-ul{margin-top: 20px;translate: 0px 0px;gap: 0px;justify-content: space-evenly;}
-.logo{padding-left: 100px;}
-h2{margin-left: 100px;}
-p{margin-left: 140px;}
-.talk{width:350px ;display: flex;flex-flow: column;justify-content: center;align-items: center;}
-.container{height: 70vh;width: 70%;padding-bottom: 120px;padding-left: 50px;padding-right: -100px;margin-bottom: 30px;margin-top: -15px;}
+.logo{display: block;width: 500px ;height: fit-content;translate: 50px 0px;padding-top: 10px;}
+.content{ display: flex;justify-content: flex-start;align-items: flex-start;flex-flow: row wrap;height: 100%;width:300px;padding-top: 20px;align-self: flex-start;}
+ul{display: flex;gap: 70px;margin-top: 5px;width: 100%;margin: auto auto;margin-top: 20px;translate: -20px 0px;gap: 25px;justify-content: space-evenly }
 
+
+
+h2{margin-left: 50px;width: 40%;margin-top: 10px;margin-bottom: ;}
+p{margin-left: 30px;width: 40%;height:80%;}
+.talk{width:150% ;display: flex;flex-flow: column;justify-content: center;align-items: flex-start;height: 200px;overflow: hidden;padding-top: 30px;}
+.container{height: 50%;width: 50%;padding-bottom: 120px;padding-left: 50px;margin-bottom: 30px;margin-top: -15px;}
+
+
+
+
+
+
+
+}
+@media (min-hieght:0px) and (max-width:656px)
+{ .talk{width:150% ;display: flex;flex-flow: column;justify-content: center;align-items: flex-start;height: 200px;overflow: hidden;padding-top: 30px;
+}
 }
